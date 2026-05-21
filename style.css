@@ -1,0 +1,311 @@
+body{
+  margin:0;
+  font-family:"Noto Serif JP" , serif;
+  background:#710021;
+}
+
+
+
+.hero{
+  min-height:100vh;
+
+  display:flex;
+  flex-direction:column;
+
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+
+  padding:0;
+}
+
+
+a{
+  font-size:22px;
+  margin-bottom:67px;
+  color: white;
+}
+h1{
+  font-size:20px;
+  margin-bottom:80px;
+  margin-top: 100px;
+  color: white;
+}
+
+p{
+  font-size:15px;
+  margin-bottom:5px;
+ 
+  color: white;
+}
+
+.chihuahua{
+    font-size:20px;
+    margin-bottom: 80px;
+    margin-top:100px;
+}
+
+.p3{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+.big{
+  font-size:25px;
+}
+
+.vote-button{
+  background:rgb(32, 99, 254);
+  color:white;
+
+  padding:30px 100px;
+
+  border-radius:px;
+
+  text-decoration:none;
+
+  font-size:20px;
+
+  position:fixed;
+  bottom:10px;
+}
+
+
+  
+.text_link{
+  display:inline-block;
+
+  color:white;
+  background:none;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  padding:12px 24px;
+
+  border-radius:9px;
+
+  text-decoration:none;
+
+  font-size:25px;
+  font-weight:normal;
+}
+
+.link_group{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.divider{
+  width:1px;
+  height:40px;
+
+  background:white;
+}
+
+.link_group{
+  display:flex;
+  gap:20px;
+
+  justify-content:center;
+  align-items:center;
+
+  flex-wrap:wrap;
+}
+
+.text_link:hover{
+  background:#894444;
+  
+}
+.text＿link:active{
+  transform:translateY(1px) scale(0.98);
+}
+
+.vote-button:hover{
+  background:#894444;
+ 
+}
+.vote-button:active{
+  transform:translateY(1px) scale(0.98);
+}
+
+.box{
+  border:2px solid rgb(145, 28, 28);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+}
+.marker{
+  background-image:url("../images/marker.png");
+
+  background-repeat:no-repeat;
+
+  background-position:bottom;
+
+  background-size:200% 100px;
+  padding-bottom:50px;
+}
+
+
+.circle{
+  position:absolute;
+
+  top:1050px;
+  right:160px;
+
+  width:130px;
+
+  opacity:0.2;
+}
+
+
+.circle2{
+  position:absolute;
+
+  top:1080px;
+  right:1px;
+
+  width:px;
+
+  opacity:0.2;
+}
+
+.circle, .circle2{
+  position:absolute;
+
+  z-index:-1;
+}
+
+.circle3{
+  position:absolute;
+
+  top:1740px;
+  right:410px;
+
+  width:100px;
+
+  
+}
+
+
+.circle4{
+  position:absolute;
+
+  top:1880px;
+  right:410px;
+
+  width:100px
+
+ 
+}
+
+.circlez{
+    position: absolute;
+
+    top: 1600px;
+    right: auto;
+
+    width: 300px;
+    z-index: -1;
+}
+
+.atension{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.uma{
+    font-size: 40px;
+    margin-bottom: 50px;
+
+    color: white;
+}
+
+.menu_image {
+  position: relative;
+  width: 450px;
+}
+
+.menu_image img {
+  width: 100%;
+  display: block;
+}
+
+.area {
+  position: absolute;
+  background: rgba(255, 0, 0, 0);
+ 
+}
+
+/* 1個目 */
+.chichibu {
+  top: 81px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+
+/* 2個目 */
+.kusatsu {
+  top: 136px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+
+.hakone {
+  top: 191px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+
+.karuizawa {
+  top: 246px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+
+.kyoto {
+  top: 301px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+
+.osaka {
+  top: 356px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+.kagawa {
+  top: 411px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+.okinawa {
+  top: 466px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+.hokkaido {
+  top: 521px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+.hukuoka {
+  top: 576px;
+  left: 96px;
+  width: 227px;
+  height: 55px;
+}
+
+
+
+/* 以下同様 */
